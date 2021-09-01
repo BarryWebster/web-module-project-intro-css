@@ -1,4 +1,4 @@
-/*Css reset*/
+/*CSS RESET*/
 html, body, div, span, applet, object, iframe, table, caption, tbody, tfoot, thead, tr, th, td, 
 del, dfn, em, font, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, 
 h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, 
@@ -11,16 +11,10 @@ dl, dt, dd, ol, ul, li, fieldset, form, label, legend {
 	outline: 0;
 	padding: 0;
 	margin: 0;
-	border: 0;
 	}
 /* remember to define focus styles! */
 :focus {
 	outline: 0;
-	}
-body {
-	background: white;
-	line-height: 1;
-	color: black;
 	}
 ol, ul {
 	list-style: none;
@@ -46,14 +40,15 @@ blockquote, q {
         box-sizing: border-box;
         padding: 0;
         margin: 0;
-        max-width:100;
+        max-width: 100;
     }
     /* General Styles*/
     html{
         font-size: 62.5%;
-
-    }body{
+    }
+    
+    body{
         font-size: 1.6rem;
         line-height: 1.5;
-        color:4f4f4f;
+        color: #4f4f4f;
     }
