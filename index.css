@@ -99,7 +99,6 @@ blockquote, q {
 /*Titles Section Styles*/
 .titles{
     text-align:center;
-    position:relative;
 }
 left, .right{
     display:inline-block;
@@ -131,6 +130,9 @@ left, .right{
 .main-text {
     background-color: #DDB9A3;
     color: white;
+    line-height: 2;
+    padding: 5%;
+    margin: 5%;
 }
 img.fire {
     display: inline-block;
@@ -151,8 +153,14 @@ p.second {
    }
 
 /*Footer*/
-footer img {
-    }
+.mountain-img {
+    background-image: url('assets/footer_img.jpg');
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
+    width: 100%;
+}
 footer {
     background-color: #F9E7DC;
 }
