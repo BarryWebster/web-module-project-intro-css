@@ -122,5 +122,24 @@ blockquote, q {
 /*Main Text Body*/
 .main-text {
     background-color: #DDB9A3;
+    color: white;
     margin: 5%
+}
+
+footer {
+    background-color: #F9E7DC;
+}
+
+.fire-image {
+    display: inline-block;
+    width: 10%;
+    margin-right: 50%;
+    border: grey solid;
+}
+
+.bus-image {
+    display: inline-block;
+    width: 10%;
+    margin-right: 50%;
+    border: grey solid;
 }
