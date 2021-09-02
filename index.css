@@ -118,3 +118,9 @@ blockquote, q {
     position:absolute;
     top:40%;
 }
+
+/*Main Text Body*/
+.main-text {
+    background-color: #DDB9A3;
+    margin: 5%
+}
