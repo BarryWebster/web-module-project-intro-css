@@ -55,6 +55,7 @@ blockquote, q {
     h1{
         font-family: 'Chelsea Market', cursive;
         font-size: 5rem;
+        margin
     }
     a{
         font-family: 'Roboto Mono', monospace;
@@ -67,7 +68,7 @@ blockquote, q {
         padding: 4% 0;
     }
 
-    /*header section styles*/
+    /*Header Section Styles*/
 
     nav {
         padding: 2% 0;
@@ -100,8 +101,9 @@ blockquote, q {
     text-align:center;
     position:relative;
 }
-.left, .right{
+left, .right{
     display:inline-block;
+
 }
 .left{
     width:30%;
@@ -109,37 +111,48 @@ blockquote, q {
 }
 .left img{
     border-radius:50%;
+    width: 80%;
 }
 .right{
     width:55%;
     margin-left: 5%;
+    height: 20%
 }
 .right div{
     position:absolute;
     top:40%;
+}
+.right div p{
+    text-align: center;
+    margin: 5% 30%;
 }
 
 /*Main Text Body*/
 .main-text {
     background-color: #DDB9A3;
     color: white;
-    margin: 5%
 }
+img.fire {
+    display: inline-block;
+    width: 10%;
+    }
+img.bus {
+    display: inline-block;
+    width: 10%;
+   }
+.middle-text {
+    text-align: center;
+    }
+p.first {
+        padding: 0 35%;
+   }
+p.second {
+        padding: 0 35%;
+   }
 
+/*Footer*/
+footer img {
+    }
 footer {
     background-color: #F9E7DC;
-}
-
-.fire-image {
-    display: inline-block;
-    width: 10%;
-    margin-right: 50%;
-    border: grey solid;
-}
-
-.bus-image {
-    display: inline-block;
-    width: 10%;
-    margin-right: 50%;
-    border: grey solid;
 }
